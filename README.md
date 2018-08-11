@@ -1,3 +1,3 @@
 # Git Course
 
-Esse é um repositorio teste
+Arquivo usado para descrever detalhes do repositório.
