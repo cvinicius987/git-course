@@ -33,3 +33,6 @@ Git Log
 	organizada.
 
 Git Pull e Pull Rebase
+
+	Ao realizar um git pull onde temos alteração locais e remotas, estas irão ter que serem unidas em um novo commit 
+	que irá integrar todas as modificações.
