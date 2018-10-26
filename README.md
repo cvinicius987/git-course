@@ -6,4 +6,4 @@
 
 ## Curso Avançado
 
-  Trata funcionalidades mais complexas tais como: Pull Request, Workflow;
+  Trata funcionalidades mais complexas tais como: Pull Request, Workflow, e uso com Visual Studio Code;
