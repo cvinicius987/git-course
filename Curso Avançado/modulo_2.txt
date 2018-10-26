@@ -38,7 +38,7 @@ Git Pull e Pull Rebase
 Git Pull e Pull rebase
 
 	Ao realizar um git pull onde temos alteração locais e remotas que necessitem serem unidas o Git irá criar um novo commit para unir 
-	as alterações que foram relizadas entre as branches.
+	as alterações que foram relizadas entre as branches
 
 	
 >>>>>>> Alteração no descritivo 2
