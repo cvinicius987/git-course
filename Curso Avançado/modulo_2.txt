@@ -5,7 +5,7 @@ Adicionar o template:
 
 	git commit -m "<mensagem desejada>"
 
-	Não é uma boa prática realiza o commit onde muitos arquivos s�o alterados e adicionados de uma vez, porque dificulta em opera��es fturas como merge, rebase ou 	rastreamento de atividades;
+	Não é uma boa prática realiza o commit onde muitos arquivos são alterados e adicionados de uma vez, porque dificulta em operações fturas como merge, rebase ou 	rastreamento de atividades;
 
 	mensagens de commit: https://chris.beams.io/posts/git-commit/
 
@@ -31,6 +31,4 @@ Git Log
 	o git log exibe na linha de comando, e quando possuimos muitos commit e branches a exbição não fica
 	organizada.
 
-Git Pull e Pull rebase
-
-	
+Git Pull e Pull Rebase
