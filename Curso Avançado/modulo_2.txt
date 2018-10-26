@@ -5,7 +5,8 @@ Adicionar o template:
 
 	git commit -m "<mensagem desejada>"
 
-	Não é uma boa prática realiza o commit onde muitos arquivos são alterados e adicionados de uma vez, porque dificulta em operações fturas como merge, rebase ou 	rastreamento de atividades;
+	Não é uma boa prática realiza o commit onde muitos arquivos são alterados e adicionados de uma vez, 
+	porque dificulta em operações fturas como merge, rebase ou rastreamento de atividades;
 
 	mensagens de commit: https://chris.beams.io/posts/git-commit/
 
