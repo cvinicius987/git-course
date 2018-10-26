@@ -7,3 +7,4 @@ Trata de comandos e funcionalidades básicas do GIT, tais como: branch, tags, pu
 ## Curso Avançado
 
 Trata funcionalidades mais complexas tais como: Pull Request, Workflow;
+
