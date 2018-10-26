@@ -5,7 +5,7 @@ Adicionar o template:
 
 	git commit -m "<mensagem desejada>"
 
-	N�o � uma boa pr�tica realiza o commit onde muitos arquivos s�o alterados e adicionados de uma vez, porque dificulta em opera��es fturas como merge, rebase ou 	rastreamento de atividades;
+	Não é uma boa prática realiza o commit onde muitos arquivos s�o alterados e adicionados de uma vez, porque dificulta em opera��es fturas como merge, rebase ou 	rastreamento de atividades;
 
 	mensagens de commit: https://chris.beams.io/posts/git-commit/
 
@@ -14,3 +14,14 @@ Visual Studio Code
 	Ctrl + Shift + P
 	
 		Utilitario para comandos do GIT;
+
+Atualização Remota
+
+	Usamos os comandos abaixo para realizar uma atualização e busca em repositórios remotos:
+
+	git push origin master 
+
+		Neste caso estamos enviando as alterações do repositório local para o repositorio remote chamado origin e a branch
+		que iremos enviar é a master
+	
+	
