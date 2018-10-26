@@ -36,3 +36,6 @@ Git Pull e Pull Rebase
 
 	Ao realizar um git pull onde temos alteração locais e remotas, estas irão ter que serem unidas em um novo commit 
 	que irá integrar todas as modificações.
+	
+	A operação de rebase não cria novos merges, ele adiciona a diferença de commits na mesma arvore cronologica,
+	isto facilita  aleitura de um log de commits;
