@@ -24,4 +24,9 @@ Atualização Remota
 		Neste caso estamos enviando as alterações do repositório local para o repositorio remote chamado origin e a branch
 		que iremos enviar é a master
 	
-	
+Git Log
+
+	Ao utilizar o visual studio code podemos utilizar o plugin git history
+	ele exibe de forma organizada todos o hitorico de terefas executadas no repositório
+	o git log exibe na linha de comando, e quando possuimos muitos commit e branches a exbição não fica
+	organizada.
