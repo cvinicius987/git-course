@@ -43,3 +43,6 @@ Git Pull e Pull Rebase
 Blame e Stash
 
 	Git Blame é um funcionalidade que permite a rastreamento dos commits executados em partes do código;
+
+	O Stash é uma area antes do commit usado para armazenar alterações que ainda não estão prontas para um commit real
+	ao stash é atribuido um nome no qual depois podemos restaurar via pop stash fornecendo o nome dado anteriormente;
