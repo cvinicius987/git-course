@@ -92,7 +92,7 @@ Juntando commits com Squash
 	git rebase -i HEAD~3
 
 		No caso HEAD significa o commit atual e 3 a quantidades de commits que você que unir, sendo
-		de forma decrescente, ou seja, aqui iremo unir os 3 ultimos commits;
+		de forma decrescente, ou seja, aqui iremos unir os 3 ultimos commits;
 
 		Irá aparecer uma tela onde temos que definir quais e de qual forma
-		queremos realziar a união;
+		queremos realizar a união;
