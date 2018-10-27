@@ -59,3 +59,23 @@ Editando commits com amend
 
 		Aqui você podera executar as modificações desejadas no ultimo commit realizado.
 
+Pegando commits específicos de outros branchs com cherry-pick
+
+	https://git-scm.com/docs/git-cherry-pick
+
+	É possivel pegar commits de outras branches sem a necessidade de realizar merge ou rebase;
+
+	Para isso basta realizar:
+
+		git checkout <branch_com_commit>
+
+		git log (Pegar a hash do commit) 
+
+		git checkout master
+		
+		git cherry_pick <hash>
+
+	Após isso a modificação do commit vai ser encaminhado a branch desejada;
+
+
+
