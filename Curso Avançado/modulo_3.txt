@@ -22,3 +22,21 @@ Reverentendo Commits no Master
     ele é o recomendado a ser utilizado devido a rastreabilidade dos commits, recomendado principalmente
     para branch master.
 
+Revertendo com Reset
+
+	git reset --hard/--soft
+
+	--hard 
+
+		Retorna para este commit e apaga tudo que foi feito depois;
+
+	--soft
+
+		Retorna as alterações para área de stagged, dando a possibilidade de correção do problema;
+
+	Vantagens do Reset
+
+		Serve para evitar commits sujos, recomendado para branches separados, ou que você esteja trabalhando sozinho, não recomendado para o master;
+
+		Caso você tenha a alteração que o reset tenha revertido já esteja na origin/master, será necessário que você faça um --force
+		forcando o remote a atualizar seus historicos de commits; 
