@@ -18,5 +18,7 @@ Reverentendo Commits no Master
 	
 	Após irá abrir uma janela dizendo quais arquivos serão revertidos com esta operação
 
-	O revert não apaga o historico de commit ou seja, ele é o recomendado a ser utilizado devido a rastreabilidade das informações.
+	O revert não apaga o historico de commit ou seja, 
+    ele é o recomendado a ser utilizado devido a rastreabilidade dos commits, recomendado principalmente
+    para branch master.
 
