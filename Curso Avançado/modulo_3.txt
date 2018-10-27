@@ -44,3 +44,18 @@ Revertendo com Reset
 
 		Caso você tenha a alteração que o reset tenha revertido já esteja na origin/master, será necessário que você faça um --force
 		forcando o remote a atualizar seus historicos de commits; 
+
+Editando commits com amend
+
+	https://help.github.com/articles/changing-a-commit-message/
+
+	Fornece a possibilidade de alterar commits locais, como mensagens, arquivos, etc;
+
+	Não recomendado para MASTER;
+
+	Após o commit ter sido realizado localmente, basta executar:
+	
+	git commit --amend
+
+		Aqui você podera executar as modificações desejadas no ultimo commit realizado.
+
