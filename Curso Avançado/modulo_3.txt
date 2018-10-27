@@ -1,4 +1,6 @@
-Reverentendo Commits no Master
+Revertendo Commits no Master com Revert
+
+	https://git-scm.com/docs/git-revert
 
     Como podemos reverter uma alteração executada na master:
 
@@ -23,6 +25,8 @@ Reverentendo Commits no Master
     para branch master.
 
 Revertendo com Reset
+
+	https://git-scm.com/docs/git-reset
 
 	git reset --hard/--soft
 
