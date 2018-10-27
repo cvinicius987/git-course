@@ -4,3 +4,19 @@ Reverentendo Commits no Master
 
     git checkout master
 
+    git add . 
+
+    git commit -m "Codigo com falha"
+
+    git push origin master
+
+    git log
+
+        Pega o ID do commit que queremos reverter
+
+    git revert <codigo do commit>
+	
+	Após irá abrir uma janela dizendo quais arquivos serão revertidos com esta operação
+
+	O revert não apaga o historico de commit ou seja, ele é o recomendado a ser utilizado devido a rastreabilidade das informações.
+
