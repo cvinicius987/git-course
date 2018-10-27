@@ -39,3 +39,7 @@ Git Pull e Pull Rebase
 	
 	A operação de rebase não cria novos merges, ele adiciona a diferença de commits na mesma arvore cronologica,
 	isto facilita a leitura de um log de commits;
+
+Blame e Stash
+
+	Git Blame é um funcionalidade que permite a rastreamento dos commits executados em partes do código;
