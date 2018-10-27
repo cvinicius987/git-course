@@ -1,0 +1,6 @@
+Reverentendo Commits no Master
+
+    Como podemos reverter uma alteração executada na master:
+
+    git checkout master
+
