@@ -27,5 +27,41 @@ Feature Branch
         Manter o branch que estamos trabalhando atualizado com o master;
 
         Retirar commits não importantes;
+    
+    Quando termina a feature em seu repositorio local, o dev deve encaminhar para o remoto a branch realizando:
 
+        git push origin <nome_branch>
+
+    No Repositorio remoto, a branch irá ser um pull request / merge request, onde as alterações realizadas na branch em dev
+    são sugeridas a serem adicionadas na branch master, pondendo ser:
+
+        Merge
+
+        rebase
+         
+        Rebase Squash
+
+Gitflow Workflow
+
+    Utilziado em grandes equipes onde temos varias funcionalides acontecendo em paralelo;
+
+    São utilizados:
+
+        Feature branch;
+            Criada a cada nova funcionalidade, após merge com develop pode ser excluida;
+
+        Develop;
+            Concentra a linha de desenvolvimento concluido atual;
+
+        Realese
+            Recebe dados da develop para criação de uma release, após merge/rebase com a master pdoe ser excluida;
+
+        Master
+            Release principal/atual, após receber um release deve executar uma Tag;
+
+        Hotfix
+            Criada a partir da master para correção, após concluida deve ser feito merge com develop, master, e realizar uma Tag
+            após pode ser excluida;
+
+    http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html
 
