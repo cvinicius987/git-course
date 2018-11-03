@@ -1,4 +1,4 @@
-Revertendo Commits no Master com Revert
+﻿Revertendo Commits no Master com Revert
 
 	https://git-scm.com/docs/git-revert
 
@@ -96,3 +96,6 @@ Juntando commits com Squash
 
 		Irá aparecer uma tela onde temos que definir quais e de qual forma
 		queremos realizar a união;
+
+Juntando commits com fixup e autosquash
+
