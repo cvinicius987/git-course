@@ -115,3 +115,20 @@ Juntando commits com fixup e autosquash
 
 	Essa funcionalidade é interessante para deixar o log de commits mais legivel, porque em branches features é comum
 	o log ficar poluido com com pequenos commits que poderiam estar em somente 1;
+
+Resolvendo divergências de repositórios com --rebase
+
+	As vezes ao mandar um commit local para o remoto pode haver divergência entre commits (conflitos):
+
+	Ao enviar:
+		git push origin master
+
+	Acontece um erro devido a ordem dos commits, para solucionar utilizando rebase, primeiro atualizamos nosso repositorio
+	local com as alterações remotes:
+
+		git pull origin master --rebase
+	
+	Aqui será aplicado as alterações remotas dentro da ordem corretas dos commits, após podemos enviar as alterações
+	para o servidor remoto:
+
+		git push origin master
