@@ -147,8 +147,14 @@ Resolvendo conflitos em modo manual
 
 	Após corrigir todos os conflitos:
 
+		Devemos adicionar ao stagged:
+
+		git add <arquivo>
+
+		E continuar o merge/rebase:
+
 		git rebase --continue 
 		 ou
 		git merge --continue
 	
-	Depois de resolver o conflito podemos retomar a operação de push/pull
+	Depois de resolver o conflito podemos retomar a operação de push/pull.
