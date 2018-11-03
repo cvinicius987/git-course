@@ -158,3 +158,28 @@ Resolvendo conflitos em modo manual
 		git merge --continue
 	
 	Depois de resolver o conflito podemos retomar a operação de push/pull.
+
+Usando o Autocorrect para prever erros de digitação
+
+	git config --global help.auto.correct 1
+
+	Correção automatica em caso de erros de digitação dos comandos
+
+Gerando zip de repositórios inteiros
+
+	git archive master --format=zip --output=zip
+
+	Criação de um zip de branch.
+
+O grande salvador git reflog
+
+	Retorna todo o log de trabalho executado no git
+
+		git reflog
+
+	Com este comando é possivel recuperar coisas feitas com:
+	
+		 git reset --hard
+
+		 Porque mesmo executando o reflog irá mostrar um historico de todos hash executados,
+		 assim é possivel voltar para um hash mesmo após o git reset --hard
