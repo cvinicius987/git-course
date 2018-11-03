@@ -132,3 +132,5 @@ Resolvendo divergências de repositórios com --rebase
 	para o servidor remoto:
 
 		git push origin master
+
+	https://git-scm.com/docs/git-merge#_how_conflicts_are_presented
