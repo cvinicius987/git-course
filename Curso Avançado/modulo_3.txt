@@ -134,3 +134,21 @@ Resolvendo divergências de repositórios com --rebase
 		git push origin master
 
 	https://git-scm.com/docs/git-merge#_how_conflicts_are_presented
+
+Resolvendo conflitos em modo manual
+
+	Acontece as vezes de acontecer alterações simultaneas em um mesmo branches, e no momento de realizar um pull/push
+	podem acontecer conflits em arquivos, nesse momento o git informa quais arquivos possuem conflitos e cabe ao devido
+	realizar o conserto manualmente.
+
+	Após isso devemos adicionar ao stagged:
+
+		git add <arquivo>
+
+	Após corrigir todos os conflitos:
+
+		git rebase --continue 
+		 ou
+		git merge --continue
+	
+	Depois de resolver o conflito podemos retomar a operação de push/pull
