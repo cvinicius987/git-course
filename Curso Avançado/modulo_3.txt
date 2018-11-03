@@ -99,3 +99,19 @@ Juntando commits com Squash
 
 Juntando commits com fixup e autosquash
 
+	Utilizado para integrar commits:
+
+	git commit -m "<msg>"
+
+	git log ==>> Recupera o id do commit
+
+	Realiza novas alteração, e no momento desse novo commit você utiliza:
+
+	git commit --fixeup <codigo do commit desejado>
+
+	Como juntar os commits:
+
+		git reabase -i --autosquash <codigo do commit>
+
+	Essa funcionalidade é interessante para deixar o log de commits mais legivel, porque em branches features é comum
+	o log ficar poluido com com pequenos commits que poderiam estar em somente 1;
