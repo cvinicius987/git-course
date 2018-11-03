@@ -1,0 +1,31 @@
+Workflow
+
+    Centralized Workflow, Feature Branch ou Gitflow Workflow
+
+Centralized Workflow
+
+    Branch unico (master)
+
+    Facil para transição de SVN;
+
+    Funciona bem com equipes pequenas, entre 4 a 5 pessoas;
+
+    Ideal para projeto pessoais quando há apenas um owner/dev;
+
+    O comando mais utilizado é, porque faz um ordem nos commits dexando os ultimos no topo:
+
+        git push origin master --rebase
+
+Feature Branch
+
+    Uma branch para cada feature;
+
+    Evita conflitos e permite trabalhos em paralelo;
+
+    Funciona bem com equipes maiores;
+
+        Manter o branch que estamos trabalhando atualizado com o master;
+
+        Retirar commits não importantes;
+
+
