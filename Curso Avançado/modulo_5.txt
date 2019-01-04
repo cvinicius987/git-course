@@ -1,4 +1,4 @@
-Workflow
+﻿Workflow
 
     Centralized Workflow, Feature Branch ou Gitflow Workflow
 
@@ -63,5 +63,13 @@ Gitflow Workflow
             Criada a partir da master para correção, após concluida deve ser feito merge com develop, master, e realizar uma Tag
             após pode ser excluida;
 
-    http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html
+    	http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html
+
+Git Hub Pages
+	
+	https://willianjusten.com.br/making-of-parte-2/
+
+	https://willianjusten.com.br/dominio-proprio-no-github-pages/
+	
+
 

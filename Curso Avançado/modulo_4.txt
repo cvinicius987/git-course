@@ -1,0 +1,6 @@
+GitHub na pratica
+
+	Dono do repository pode ser uma pessoa ou organização;
+
+	O fork do projeto é feito no momento da operação, ou seja, caso o projeto tenha uma alteração sua base de codigo não terá as alterações
+	isso é muito util no momento que você tenta contribuir para um projeto open source.
