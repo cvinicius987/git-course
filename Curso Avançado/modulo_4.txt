@@ -4,3 +4,10 @@ GitHub na pratica
 
 	O fork do projeto é feito no momento da operação, ou seja, caso o projeto tenha uma alteração sua base de codigo não terá as alterações
 	isso é muito util no momento que você tenta contribuir para um projeto open source.
+
+Issues
+
+	Templates: https://github.com/devspace/awesome-github-templates
+
+		criar uma pasta dentro do projeto .github
+		criar os arquivos de templates dentro dessa pasta por exemplo issue_template.md
