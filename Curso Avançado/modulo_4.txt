@@ -23,5 +23,3 @@ Pull Requests
 	São branches separados para realizar integração entre outras branches;
 
 	Muito utilizado em projetos open source;
-
-	
